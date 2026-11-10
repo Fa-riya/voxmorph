@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Audio you process locally (keep recordings out of the repo)
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.m4a
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
